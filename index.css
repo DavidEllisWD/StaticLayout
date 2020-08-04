@@ -1,0 +1,111 @@
+
+.navbar-nav {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-toggler {
+    display: none;
+}
+.navbar-toggler {
+    padding: .25rem  .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-attachment: transparent;
+    border: 1px solid transparent;
+
+}
+}
+.download-header {
+    position: absolute;
+    z-index: 70;
+    top: 29px;
+    right: 20px;
+    display: inline-block;
+    background: transparent;
+    border-radius: 3px;
+    height: 27px;
+    line-height: 27px;
+    width: 104px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    box-shadow: inset 0px 0px 0px 1px #fff;
+    border: 1px solid transparent;
+    color: #ffffff !important;
+
+}
+
+.logo-container {
+    width: 201px;
+    height: auto;
+    top: 19px;
+    left: 20px;
+    z-index: 70;
+    transition: transform 0.3s;
+    display: block;
+    padding: 0;
+}
+.navbar-brand {
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}    
+
+a {
+    text-decoration: none;
+    color: #FE9000;
+    cursor: pointer;
+    background-color: transparent;
+
+
+}
+a, img, :focus, input {
+    outline: none;!important;
+}
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    display: block;
+    font: normal 14px/1.8 "Roboto" sans-serif;
+    background-color: #fff;
+    color: #434146;
+}
+
+
+header {
+    height: 83px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 205px auto 104px;
+    grid-column-gap: 40px;
+    padding: 19px 20px;
+    z-index: 900;
+    transition: top 0.3s ease-in-out;
+}
+
+
+.watch-party-made-easy {
+    background-color: #531f62;
+    background-image:url("../3-Assets/gradient-violet-bg");
+    background-size: cover;
+    padding-top: 83px !important;
+    padding-bottom: 60px !important;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+html {
+    -webkit-tap-highlight-color: transparent;
+}
