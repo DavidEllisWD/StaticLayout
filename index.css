@@ -66,9 +66,9 @@ a {
 
 }
 a, img, :focus, input {
-    outline: none;!important;
+    outline: none; !important;
 }
-}
+
 
 body {
     -webkit-font-smoothing: antialiased;
@@ -99,7 +99,7 @@ header {
 
 .watch-party-made-easy {
     background-color: #531f62;
-    background-image:url("../3-Assets/gradient-violet-bg");
+    background-image:url("/-Assets/gradient-violet-bg.jpg");
     background-size: cover;
     padding-top: 83px !important;
     padding-bottom: 60px !important;
